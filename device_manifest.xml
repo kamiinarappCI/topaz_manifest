@@ -4,10 +4,11 @@
 <remote name="tapas-playground" fetch="https://github.com/SM6225-Android-Playground" />
 <remote name="tapas-playground-ssh" fetch="git@github.com:SM6225-Android-Playground" />
 <remote name="tapas-playground-gitlab" fetch="https://gitlab.com/Masood-J" />
-<remote name="rexons-aosp" fetch="git@github.com:Rexons-AOSP-Projects" />
+<remote name="rexons-aosp" fetch="git@github.com:Rexons-AOSP-Projects" /
+<remote name="kamiinarapp" fetch="https://github.com/SM6225-Android-Playground" />
     
 <!-- Device Sources -->
-<project name="android_device_xiaomi_tapas" path="device/xiaomi/tapas" remote="tapas-playground" revision="16" />
+<project name="android_device_xiaomi_tapas" path="device/xiaomi/tapas" remote="kamiinarapp" revision="16" />
 <project name="proprietary_vendor_xiaomi_tapas" path="vendor/xiaomi/tapas" remote="tapas-playground" revision="16" />
 <project name="android_device_xiaomi_tapas-kernel" path="device/xiaomi/tapas-kernel" remote="tapas-playground" revision="16-gki" />
 
